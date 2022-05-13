@@ -1,0 +1,299 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Hurricane', cursive;
+
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7
+{
+    width: 92%;
+    padding: 4%;
+}
+
+.section1, .section2, .section3, .section4, .section5
+{
+    height: 100vh;
+}
+
+.section2, .section4
+{
+    background-color: white;
+}
+
+.section3, .section5
+{
+    background-color: rgb(248, 248, 248);
+}
+
+.section6
+{
+    background-color: #403d38;
+    color: #969696;
+}
+
+.section7
+{
+    background-color: #353330;
+    color: #969696;
+}
+
+.section1
+{
+    /*height: 100vh;*/
+    /*text-align: center;*/
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+}
+
+.navsec
+{
+    width: 90%;
+    margin: 0px auto;
+    position: fixed;
+    background-color: brown;
+}
+
+.navsec.scroll
+{
+background-color: aqua;
+}
+
+.navimg
+{
+    float: left;
+    width: 150px;
+}
+
+.navbar
+{
+    float: right;
+    margin-top: 10px;
+}
+
+.navbar a
+{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.section1 .content
+{
+    width: 60%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1
+{
+    font-size: 76px;
+    font-weight: 900;
+}
+
+.section1 p
+{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.buttons
+{
+    margin: 30;
+    padding-top: 20px;
+}
+
+.btn1
+{
+    background-color: rgb(134, 113, 87);
+    padding: 15 28;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    border: 2px solid rgb(134, 113, 87);
+    border-radius: 3%;
+}
+
+.btn2
+{
+    padding: 15 28;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    border: 2px solid white;
+    border-radius: 3%;
+}
+
+.subsec2
+{
+    float: left;
+    width: 40%;
+    height: 90%;
+    margin: 3%;
+
+}
+
+.imgsec
+{
+    padding-top: 30px;
+}
+
+.contentsec
+{
+    line-height: 2;
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+img
+{
+    width: 100%;
+}
+
+.iconimg
+{
+    width: 30;
+    position: relative;
+    top: 8;
+    border-radius: 50%;
+}
+
+.cntimg
+{
+    width: 35;
+    height: 35;
+    position: relative;
+    top: 15;
+    border-radius: 50%;
+}
+
+.btnimg
+{
+    width: 50;
+    position: relative;
+    border-radius: 50%;
+}
+/*.rightsec
+{
+    background-color: bisque;
+    float: left;
+}*/
+/*.section2 .leftsec
+{
+    width: 40%;
+    margin-left: 0 auto;
+}*/
+
+/*.section2 .leftsec img
+{
+    width: 100%;
+}*/
+
+/*.section2 .rightsec
+{
+    width: 40%;
+    margin-right: 0 auto;
+}*/
+
+.clear-fix
+{
+    clear: both;
+}
+
+.subsec1
+{
+    width: 100%;
+    text-align: center;
+}
+
+.subsec3
+{
+    float: left;
+    width: 24.6%;
+    margin: 3%;
+    text-align: center;
+}
+
+.subsec4
+{
+    float: left;
+    width: 21%;
+    margin: 1%;
+}
+
+.arrow li::before
+{
+    content: "> ";
+}
+
+.section6
+{
+    font-size: 16;
+}
+
+.section6 h3
+{
+    color: white;
+}
+
+.section6 li
+{
+    border-bottom: .5px solid #969696;
+    margin: .5em;
+}
+
+.section6 a
+{
+    text-decoration: none;
+    color: #969696;
+}
+
+.section6 ul
+{
+    padding-left: 10;
+    text-indent: -10;
+}
+
+.section6 .iconlist
+{
+    background-image: url(images/contact-details-map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 35;
+    text-indent: -35;
+}
+
+.section7
+{
+    text-align: center;
+}
+
+.section7 p
+{
+    margin: 30px;
+}
+
+.mainimg
+{
+    width: 400;
+}
